@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Starter Page</title>
+    <meta name="description" content="Layout of a tutorial HTML page" />
+    <meta name="keywords" content="html, student, course, junior" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="navi sticky">
+        <ul class="navi-list list">
+          <li class="navi-item"><a href="#">Home</a></li>
+          <li class="navi-item"><a href="#">Portfolio</a></li>
+          <li class="navi-item"><a href="#">Photogallery</a></li>
+          <li class="navi-item"><a href="#">Exit</a></li>
+        </ul>
+      </nav>
+      <div class="heading">
+        <div class="pic">
+          <img src="/pics/cat.jpg" alt="Snow Leopard" width="150" />
+        </div>
+        <div class="info">
+          <h1>@emarskiy</h1>
+
+          <p>Studying web development.</p>
+
+          <h4>Socials:</h4>
+          <a href="https://www.instagram.com/snowleopardtrust/" target="_blank"
+            >Instagram</a
+          >
+        </div>
+      </div>
+
+      <div class="hobbi">
+        <h4>My hobbies:</h4>
+        <ul class="list">
+          <li class="list-item">WebDev</li>
+          <li class="list-item">MMA</li>
+          <li class="list-item">Travels</li>
+        </ul>
+      </div>
+
+      <div class="expa">
+        <h4>Work experience:</h4>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Company</th>
+              <th>Position</th>
+              <th>Period</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Space</td>
+              <td>Astronaut</td>
+              <td>2003-2015</td>
+            </tr>
+            <tr>
+              <td>No Space</td>
+              <td>No Astronaut</td>
+              <td>2015-2020</td>
+            </tr>
+            <tr>
+              <td>USA</td>
+              <td>Expat</td>
+              <td>2020 -</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="feedback">
+        <h4 class="contact">Feedback</h4>
+        <form id="contactform">
+          <p class="contact"><label for="name">Name</label></p>
+          <input id="name" name="name" placeholder="Your name" type="text" />
+
+          <p class="contact"><label for="email">Email</label></p>
+          <input
+            id="email"
+            name="email"
+            placeholder="example@sitehere.com"
+            type="text"
+          />
+
+          <p class="contact"><label for="comment">Message</label></p>
+          <textarea name="comment" id="comment" tabindex="4"></textarea> <br />
+          <input name="submit" value="Commit" type="submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
